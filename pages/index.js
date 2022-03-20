@@ -46,7 +46,7 @@ export default function Home (props) {
 					{ posts.map( (post,index) => <Post key={ post.id } index={index} post={ post } /> )}
 					</div>
 				</div>
-				{/*Prodduts*/ }
+				{/*Proddut*/ }
 			
 				</div>
 			</Layout>
