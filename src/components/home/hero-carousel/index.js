@@ -50,7 +50,7 @@ const HeroCarousel = ({heroCarousel}) => {
 
     useEffect(() => {
         if ( autoPlay ) {
-            const interval = setInterval(() => nextSlide(), slideDuration * 2000 );
+            const interval = setInterval(() => nextSlide(), slideDuration * 1000 );
             return () => clearInterval( interval );
         }
     }, [])
