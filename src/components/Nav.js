@@ -1,8 +1,8 @@
 import Link from 'next/link';
 import CartIcon from "./cart/CartIcon";
 import { useState } from 'react';
-import profilePic from '../../public/logo.png'
-import Image from 'next/image'
+
+
 const Nav = () => {
 
 	const [ isMenuVisible, setMenuVisibility ] = useState(false);
