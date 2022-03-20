@@ -42,7 +42,7 @@ export default function Home (props) {
 				
 				<div className="products container mx-auto my-10  ">
 					<h2 className="products-main-title main-title mb-5 text-3xl text-center uppercase"><span className="main-title-inner">Новини</span></h2>
-					<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-5 gap-4">
+					<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 gap-4">
 					{ posts.map( (post,index) => <Post key={ post.id } index={index} post={ post } /> )}
 					</div>
 				</div>
