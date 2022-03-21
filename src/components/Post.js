@@ -34,7 +34,7 @@ const Post = ( props ) => {
 		{ post.title ? post.title : '' }
 		</h3>
 		<span className="px-3 py-2 text-white bg-gradient-to-r from-blue ...">{post.date}</span>
-		{/*	<span clasName="block px-3 pb-8 pt-3 text-gray-500" dangerouslySetInnerHTML={ {
+		{/*	<span className="block px-3 pb-8 pt-3 text-gray-500" dangerouslySetInnerHTML={ {
 									__tml: post.excerpt
 								} }></span>*/}
 	
